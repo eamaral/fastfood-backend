@@ -46,7 +46,7 @@ Este sistema foi desenvolvido utilizando **Node.js** e **MongoDB**, seguindo o p
 ### Sistema de Pontos
 
 - **Acúmulo de Pontos**: A cada pedido realizado, o cliente acumula pontos.
-- **Recompensa**: Quando o cliente acumula 10 pontos, ele recebe um pedido gratuito.
+- **Recompensa**: Quando o cliente acumula 10 pontos, ele recebe uma notificação que ganhou um pedido gratuito.
 - **Notificação de Pontos**: O sistema notifica o cliente por e-mail sobre a contagem de pontos e informa quando ele atingiu os 10 pontos para o próximo pedido gratuito.
 
 ### Notificação por E-mail
@@ -85,8 +85,8 @@ A aplicação está integrada com a **API do Mercado Pago** para simular transa�
 
 ### Instruções para Uso
 
-1. **Clone o Repositório**:
-    git clone <url_do_repositorio>
+1. **Clone esse Repositório**:
+    git clone [https://github.com/eamaral/fastfood-backend.git](https://github.com/eamaral/fastfood-backend.git)
     cd fastfood-backend
 
 2. **Configurar Variáveis de Ambiente**:
