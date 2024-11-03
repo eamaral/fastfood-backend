@@ -98,9 +98,6 @@ A aplicação está integrada com a **API do Mercado Pago** para simular transa�
 4. **Acessar a Documentação da API**:
     - Abra o navegador e vá para [http://localhost:3000/api-docs/](http://localhost:3000/api-docs/) para ver a documentação interativa da API.
 
-5. **Testar a API**:
-    - Utilize ferramentas como **Postman** ou **Insomnia** para testar os endpoints da API em [http://localhost:3000](http://localhost:3000).
-
 ## Tecnologias Utilizadas
 
 - **Node.js**: Ambiente de execução JavaScript.
