@@ -45,7 +45,7 @@ Este sistema foi desenvolvido utilizando **Node.js** e **MongoDB**, seguindo o p
 
 ### Sistema de Pontos
 
-- **Acúmulo de Pontos**: A cada pedido realizado, o cliente acumula pontos.
+- **Acúmulo de Pontos**: A cada pedido finalizado, o cliente acumula pontos.
 - **Notificação de Pontos**: O sistema notifica o cliente por e-mail sobre a contagem de pontos e quando atingir os 10 pontos informa que o próximo pedido é por conta da casa.
 
 ### Notificação por E-mail
