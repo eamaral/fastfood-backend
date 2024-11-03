@@ -68,7 +68,7 @@ A aplicação está integrada com a **API do Mercado Pago** para simular transa�
     MERCADOPAGO_PUBLIC_KEY=<sua_chave_pública_mercado_pago>
     NGROK_URL=<sua_url_ngrok>
     EMAIL_USER=<seu_email_para_envio>
-    EMAIL_PASS=<sua_senha_de_email>
+    EMAIL_PASS=<sua_senha_de_app>
 
 **Nota**: Renomear o arquivo `.env.example` para `.env` e substituir os placeholders pelos valores corretos.
 
