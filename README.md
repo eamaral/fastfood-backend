@@ -70,7 +70,7 @@ A aplicação está integrada com a **API do Mercado Pago** para simular transa�
     EMAIL_USER=<seu_email_para_envio>
     EMAIL_PASS=<sua_senha_de_email>
 
-**Nota**: Substitua os placeholders pelos valores corretos.
+**Nota**: Renomear o arquivo `.env.example` para `.env` e substituir os placeholders pelos valores corretos.
 
 ## Subindo o Sistema com Docker
 
