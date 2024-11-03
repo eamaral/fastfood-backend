@@ -147,6 +147,21 @@ router.get('/:pedidoId', pedidoController.consultarPedidoPorId);
  *                 type: string
  *                 description: CPF do cliente
  *                 example: "34058799811"
+ *           example:
+ *             itens:
+ *               - produtoId: "01"
+ *                 nome: "Hamburguer"
+ *                 quantidade: 1
+ *               - produtoId: "02"
+ *                 nome: "Batata Frita"
+ *                 quantidade: 2
+ *               - produtoId: "03"
+ *                 nome: "Refrigerante"
+ *                 quantidade: 1
+ *               - produtoId: "04"
+ *                 nome: "Sorvete"
+ *                 quantidade: 1
+ *             clienteId: "34058799811"
  *     responses:
  *       201:
  *         description: Pedido criado com sucesso
@@ -154,6 +169,7 @@ router.get('/:pedidoId', pedidoController.consultarPedidoPorId);
  *         description: Erro ao criar pedido
  */
 router.post('/', pedidoController.criarPedido);
+
 
 /**
  * @swagger
